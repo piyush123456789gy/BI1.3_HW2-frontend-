@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="app">
-        <h1>⚛️ react playground!</h1>
+        <h1>⚛️ react playground! [edited by piyush goyal]</h1>
         <p>Crafted with care by Tanay Pratap ❤️ - Happy coding!</p>
         <AddHotel />
         <Hotels />
