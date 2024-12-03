@@ -2,7 +2,7 @@ import useFetch from "../useFetch";
 
 export default function HotelByName({ name }) {
   const { data, loading, error } = useFetch(
-    `https://bi-1-3-hw-2-backend-gamma.vercel.app/hotels/${name}`
+    `https://bi-1-3-hw-2-backend-git-main-piyush-goyals-projects-72282e7a.vercel.app/hotels/${name}`
   );
 
   return data ? (
