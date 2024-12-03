@@ -3,12 +3,12 @@ import useFetch from "../useFetch";
 
 export default function Hotels() {
   const [successMessage, setSuccessMessage] = useState("");
-  const { data, loading, error } = useFetch("https://bi-1-3-hw-2-backend-gamma.vercel.app/hotels");
+  const { data, loading, error } = useFetch("https://bi-1-3-hw-2-backend-git-main-piyush-goyals-projects-72282e7a.vercel.app/hotels");
   // console.log(data);
 
   const handleDelete = async (hotelId) => {
     try {
-      const response = await fetch(`https://bi-1-3-hw-2-backend-gamma.vercel.app/hotels/${hotelId}`, {
+      const response = await fetch(`https://bi-1-3-hw-2-backend-git-main-piyush-goyals-projects-72282e7a.vercel.app/hotels/${hotelId}`, {
         method: "DELETE",
       });
 
