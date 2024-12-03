@@ -41,7 +41,7 @@ export default function AddHotelForm() {
     };
     console.log("Prepared data being sent:", preparedData);
     try {
-      const response = await fetch("https://bi-1-3-hw-2-backend-gamma.vercel.app/hotels", {
+      const response = await fetch("https://bi-1-3-hw-2-backend-git-main-piyush-goyals-projects-72282e7a.vercel.app/hotels", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
